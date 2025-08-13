@@ -1,1 +1,15 @@
-#The folder hosts the tiem series information for figure 2 and curatorial review. 
+# Review of Palaeontology and Earth Sciences databases
+## Includes database longevity, curators review of back end systems, and a review of publication products.
+
+### IRAL.CSV
+This is the infromation that becomes fig 2a-d in Dowding et al in prep. The data was collected by websearch using multiple search terms. See the supplementary material file for complete summary.
+
+### Curator Review
+This file contains volunteered information from the authors, who are database creators and curators. Information was supplied by end 2024.
+
+### Publication products
+As of 2024 the published literatue that cited 6 databases were collected and assigned discipline tags within Earth Sciences to highlight the wide use of Earth and Palaeontological databases. 
+
+
+
+
