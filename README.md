@@ -9,7 +9,7 @@ This project aims to consider the longevity, community and financial support, us
 ## Data
 There are three datasets. 
   1. IRAL.csv is a meta-analysis of data resources and infrastructure. interested in the diversity dynamics of the databases.
-  2. CuratorReview.xlsx is information volunteered by the authors, who are also database curators, about the back end, data volume, and running costs as of 2024.
+  2. CuratorReview.xlsx is information volunteered by the authors, who are also database curators, about the back end, data volume, and running costs as of 2024. Finalcial valuations of three databases are in sheet 2.
   3. Paleo database publication products.xlsx is a survey of the use of 6 databases according to the published literature that cites them. 
 
 ### Data Contact
