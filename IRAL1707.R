@@ -22,7 +22,7 @@ dat<-read.csv("IRAL.csv")
 
 #alternative, read from GIT
 ```{r load_data}
-path_dat <- "~/IRAL"
+path_dat <- "~/IRAL/Data"
 #dat <- read.csv("https://github.com/dowdingem/main/IRAL/IRAL.csv")
 dat <- read.csv(paste0(path_dat, "/IRAL.csv"))
 
@@ -294,6 +294,7 @@ points(dd$stg, dd$scale.divRT, pch=16, col="blue")
 lines(dd$stg, dd$scale.divRT, col="blue")
 legend("topleft", bg="white", legend=c("Scaled Origination Rates (tOri) with Rolling Mean", "Scaled Diversity (RT)"), 
        col=c("black", "blue"), lwd=3, inset=c(0.01,0.01), cex=0.75)
+
 
 
 
