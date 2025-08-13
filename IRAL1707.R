@@ -1,3 +1,7 @@
+#### Code for Dowding et al in prep, Palaeontology and earth science database diversity dynamics.
+
+
+
 # Database diversity and range (based on activity, last update, or if not available digitally,last citation)
 install.packages(c("ggplot2","tidyverse", "dplyr", "divDyn","zoo", "Cairo"))
 
@@ -9,10 +13,14 @@ library(divDyn)
 library(zoo)
 library(Cairo)
 
-setwd("C:/Users/xo11zube/Desktop/IRAL")
 
-dat<-read.csv("Richnesscsv3.csv")
 
+#Set up working environment
+setwd("xxxxxxxxxxxxx")
+#Load in data from wd 
+dat<-read.csv("IRAL.csv")
+
+# set up dataframe
 df <- data.frame(
   Title = dat$Title,
   Start = dat$Inception,
@@ -280,6 +288,7 @@ points(dd$stg, dd$scale.divRT, pch=16, col="blue")
 lines(dd$stg, dd$scale.divRT, col="blue")
 legend("topleft", bg="white", legend=c("Scaled Origination Rates (tOri) with Rolling Mean", "Scaled Diversity (RT)"), 
        col=c("black", "blue"), lwd=3, inset=c(0.01,0.01), cex=0.75)
+
 
 
 
